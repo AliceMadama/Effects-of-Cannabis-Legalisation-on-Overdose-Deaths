@@ -1,0 +1,270 @@
+"Notes"	"State"	"State Code"	"Single Race 6"	"Single Race 6 Code"	"Month"	"Month Code"	"Gender"	"Gender Code"	Deaths	Population	Crude Rate
+	"Michigan"	"26"	"Black or African American"	"2054-5"	"Jan., 2018"	"2018/01"	"Female"	"F"	26	Not Applicable	Not Applicable
+	"Michigan"	"26"	"Black or African American"	"2054-5"	"Jan., 2018"	"2018/01"	"Male"	"M"	39	Not Applicable	Not Applicable
+	"Michigan"	"26"	"Black or African American"	"2054-5"	"Feb., 2018"	"2018/02"	"Female"	"F"	16	Not Applicable	Not Applicable
+	"Michigan"	"26"	"Black or African American"	"2054-5"	"Feb., 2018"	"2018/02"	"Male"	"M"	41	Not Applicable	Not Applicable
+	"Michigan"	"26"	"Black or African American"	"2054-5"	"Mar., 2018"	"2018/03"	"Female"	"F"	23	Not Applicable	Not Applicable
+	"Michigan"	"26"	"Black or African American"	"2054-5"	"Mar., 2018"	"2018/03"	"Male"	"M"	36	Not Applicable	Not Applicable
+	"Michigan"	"26"	"Black or African American"	"2054-5"	"Apr., 2018"	"2018/04"	"Male"	"M"	16	Not Applicable	Not Applicable
+	"Michigan"	"26"	"Black or African American"	"2054-5"	"May, 2018"	"2018/05"	"Female"	"F"	15	Not Applicable	Not Applicable
+	"Michigan"	"26"	"Black or African American"	"2054-5"	"May, 2018"	"2018/05"	"Male"	"M"	20	Not Applicable	Not Applicable
+	"Michigan"	"26"	"Black or African American"	"2054-5"	"Jun., 2018"	"2018/06"	"Female"	"F"	13	Not Applicable	Not Applicable
+	"Michigan"	"26"	"Black or African American"	"2054-5"	"Jun., 2018"	"2018/06"	"Male"	"M"	18	Not Applicable	Not Applicable
+	"Michigan"	"26"	"Black or African American"	"2054-5"	"Jul., 2018"	"2018/07"	"Male"	"M"	32	Not Applicable	Not Applicable
+	"Michigan"	"26"	"Black or African American"	"2054-5"	"Aug., 2018"	"2018/08"	"Female"	"F"	13	Not Applicable	Not Applicable
+	"Michigan"	"26"	"Black or African American"	"2054-5"	"Aug., 2018"	"2018/08"	"Male"	"M"	27	Not Applicable	Not Applicable
+	"Michigan"	"26"	"Black or African American"	"2054-5"	"Sep., 2018"	"2018/09"	"Female"	"F"	17	Not Applicable	Not Applicable
+	"Michigan"	"26"	"Black or African American"	"2054-5"	"Sep., 2018"	"2018/09"	"Male"	"M"	29	Not Applicable	Not Applicable
+	"Michigan"	"26"	"Black or African American"	"2054-5"	"Oct., 2018"	"2018/10"	"Female"	"F"	16	Not Applicable	Not Applicable
+	"Michigan"	"26"	"Black or African American"	"2054-5"	"Oct., 2018"	"2018/10"	"Male"	"M"	30	Not Applicable	Not Applicable
+	"Michigan"	"26"	"Black or African American"	"2054-5"	"Nov., 2018"	"2018/11"	"Female"	"F"	11	Not Applicable	Not Applicable
+	"Michigan"	"26"	"Black or African American"	"2054-5"	"Nov., 2018"	"2018/11"	"Male"	"M"	34	Not Applicable	Not Applicable
+	"Michigan"	"26"	"Black or African American"	"2054-5"	"Dec., 2018"	"2018/12"	"Female"	"F"	11	Not Applicable	Not Applicable
+	"Michigan"	"26"	"Black or African American"	"2054-5"	"Dec., 2018"	"2018/12"	"Male"	"M"	27	Not Applicable	Not Applicable
+	"Michigan"	"26"	"Black or African American"	"2054-5"	"Jan., 2019"	"2019/01"	"Female"	"F"	13	Not Applicable	Not Applicable
+	"Michigan"	"26"	"Black or African American"	"2054-5"	"Jan., 2019"	"2019/01"	"Male"	"M"	24	Not Applicable	Not Applicable
+	"Michigan"	"26"	"Black or African American"	"2054-5"	"Feb., 2019"	"2019/02"	"Male"	"M"	26	Not Applicable	Not Applicable
+	"Michigan"	"26"	"Black or African American"	"2054-5"	"Mar., 2019"	"2019/03"	"Female"	"F"	10	Not Applicable	Not Applicable
+	"Michigan"	"26"	"Black or African American"	"2054-5"	"Mar., 2019"	"2019/03"	"Male"	"M"	34	Not Applicable	Not Applicable
+	"Michigan"	"26"	"Black or African American"	"2054-5"	"Apr., 2019"	"2019/04"	"Female"	"F"	15	Not Applicable	Not Applicable
+	"Michigan"	"26"	"Black or African American"	"2054-5"	"Apr., 2019"	"2019/04"	"Male"	"M"	34	Not Applicable	Not Applicable
+	"Michigan"	"26"	"Black or African American"	"2054-5"	"May, 2019"	"2019/05"	"Female"	"F"	29	Not Applicable	Not Applicable
+	"Michigan"	"26"	"Black or African American"	"2054-5"	"May, 2019"	"2019/05"	"Male"	"M"	34	Not Applicable	Not Applicable
+	"Michigan"	"26"	"Black or African American"	"2054-5"	"Jun., 2019"	"2019/06"	"Female"	"F"	11	Not Applicable	Not Applicable
+	"Michigan"	"26"	"Black or African American"	"2054-5"	"Jun., 2019"	"2019/06"	"Male"	"M"	32	Not Applicable	Not Applicable
+	"Michigan"	"26"	"Black or African American"	"2054-5"	"Jul., 2019"	"2019/07"	"Female"	"F"	18	Not Applicable	Not Applicable
+	"Michigan"	"26"	"Black or African American"	"2054-5"	"Jul., 2019"	"2019/07"	"Male"	"M"	22	Not Applicable	Not Applicable
+	"Michigan"	"26"	"Black or African American"	"2054-5"	"Aug., 2019"	"2019/08"	"Female"	"F"	13	Not Applicable	Not Applicable
+	"Michigan"	"26"	"Black or African American"	"2054-5"	"Aug., 2019"	"2019/08"	"Male"	"M"	19	Not Applicable	Not Applicable
+	"Michigan"	"26"	"Black or African American"	"2054-5"	"Sep., 2019"	"2019/09"	"Female"	"F"	17	Not Applicable	Not Applicable
+	"Michigan"	"26"	"Black or African American"	"2054-5"	"Sep., 2019"	"2019/09"	"Male"	"M"	32	Not Applicable	Not Applicable
+	"Michigan"	"26"	"Black or African American"	"2054-5"	"Oct., 2019"	"2019/10"	"Female"	"F"	14	Not Applicable	Not Applicable
+	"Michigan"	"26"	"Black or African American"	"2054-5"	"Oct., 2019"	"2019/10"	"Male"	"M"	35	Not Applicable	Not Applicable
+	"Michigan"	"26"	"Black or African American"	"2054-5"	"Nov., 2019"	"2019/11"	"Female"	"F"	18	Not Applicable	Not Applicable
+	"Michigan"	"26"	"Black or African American"	"2054-5"	"Nov., 2019"	"2019/11"	"Male"	"M"	47	Not Applicable	Not Applicable
+	"Michigan"	"26"	"Black or African American"	"2054-5"	"Dec., 2019"	"2019/12"	"Female"	"F"	16	Not Applicable	Not Applicable
+	"Michigan"	"26"	"Black or African American"	"2054-5"	"Dec., 2019"	"2019/12"	"Male"	"M"	21	Not Applicable	Not Applicable
+	"Michigan"	"26"	"Black or African American"	"2054-5"	"Jan., 2020"	"2020/01"	"Female"	"F"	15	Not Applicable	Not Applicable
+	"Michigan"	"26"	"Black or African American"	"2054-5"	"Jan., 2020"	"2020/01"	"Male"	"M"	18	Not Applicable	Not Applicable
+	"Michigan"	"26"	"Black or African American"	"2054-5"	"Feb., 2020"	"2020/02"	"Female"	"F"	16	Not Applicable	Not Applicable
+	"Michigan"	"26"	"Black or African American"	"2054-5"	"Feb., 2020"	"2020/02"	"Male"	"M"	31	Not Applicable	Not Applicable
+	"Michigan"	"26"	"Black or African American"	"2054-5"	"Mar., 2020"	"2020/03"	"Female"	"F"	22	Not Applicable	Not Applicable
+	"Michigan"	"26"	"Black or African American"	"2054-5"	"Mar., 2020"	"2020/03"	"Male"	"M"	33	Not Applicable	Not Applicable
+	"Michigan"	"26"	"Black or African American"	"2054-5"	"Apr., 2020"	"2020/04"	"Female"	"F"	22	Not Applicable	Not Applicable
+	"Michigan"	"26"	"Black or African American"	"2054-5"	"Apr., 2020"	"2020/04"	"Male"	"M"	28	Not Applicable	Not Applicable
+	"Michigan"	"26"	"Black or African American"	"2054-5"	"May, 2020"	"2020/05"	"Female"	"F"	18	Not Applicable	Not Applicable
+	"Michigan"	"26"	"Black or African American"	"2054-5"	"May, 2020"	"2020/05"	"Male"	"M"	63	Not Applicable	Not Applicable
+	"Michigan"	"26"	"Black or African American"	"2054-5"	"Jun., 2020"	"2020/06"	"Female"	"F"	23	Not Applicable	Not Applicable
+	"Michigan"	"26"	"Black or African American"	"2054-5"	"Jun., 2020"	"2020/06"	"Male"	"M"	48	Not Applicable	Not Applicable
+	"Michigan"	"26"	"Black or African American"	"2054-5"	"Jul., 2020"	"2020/07"	"Female"	"F"	11	Not Applicable	Not Applicable
+	"Michigan"	"26"	"Black or African American"	"2054-5"	"Jul., 2020"	"2020/07"	"Male"	"M"	33	Not Applicable	Not Applicable
+	"Michigan"	"26"	"Black or African American"	"2054-5"	"Aug., 2020"	"2020/08"	"Female"	"F"	23	Not Applicable	Not Applicable
+	"Michigan"	"26"	"Black or African American"	"2054-5"	"Aug., 2020"	"2020/08"	"Male"	"M"	33	Not Applicable	Not Applicable
+	"Michigan"	"26"	"Black or African American"	"2054-5"	"Sep., 2020"	"2020/09"	"Female"	"F"	14	Not Applicable	Not Applicable
+	"Michigan"	"26"	"Black or African American"	"2054-5"	"Sep., 2020"	"2020/09"	"Male"	"M"	36	Not Applicable	Not Applicable
+	"Michigan"	"26"	"Black or African American"	"2054-5"	"Oct., 2020"	"2020/10"	"Female"	"F"	12	Not Applicable	Not Applicable
+	"Michigan"	"26"	"Black or African American"	"2054-5"	"Oct., 2020"	"2020/10"	"Male"	"M"	36	Not Applicable	Not Applicable
+	"Michigan"	"26"	"Black or African American"	"2054-5"	"Nov., 2020"	"2020/11"	"Male"	"M"	41	Not Applicable	Not Applicable
+	"Michigan"	"26"	"Black or African American"	"2054-5"	"Dec., 2020"	"2020/12"	"Female"	"F"	21	Not Applicable	Not Applicable
+	"Michigan"	"26"	"Black or African American"	"2054-5"	"Dec., 2020"	"2020/12"	"Male"	"M"	41	Not Applicable	Not Applicable
+	"Michigan"	"26"	"White"	"2106-3"	"Jan., 2018"	"2018/01"	"Female"	"F"	60	Not Applicable	Not Applicable
+	"Michigan"	"26"	"White"	"2106-3"	"Jan., 2018"	"2018/01"	"Male"	"M"	111	Not Applicable	Not Applicable
+	"Michigan"	"26"	"White"	"2106-3"	"Feb., 2018"	"2018/02"	"Female"	"F"	73	Not Applicable	Not Applicable
+	"Michigan"	"26"	"White"	"2106-3"	"Feb., 2018"	"2018/02"	"Male"	"M"	87	Not Applicable	Not Applicable
+	"Michigan"	"26"	"White"	"2106-3"	"Mar., 2018"	"2018/03"	"Female"	"F"	60	Not Applicable	Not Applicable
+	"Michigan"	"26"	"White"	"2106-3"	"Mar., 2018"	"2018/03"	"Male"	"M"	127	Not Applicable	Not Applicable
+	"Michigan"	"26"	"White"	"2106-3"	"Apr., 2018"	"2018/04"	"Female"	"F"	62	Not Applicable	Not Applicable
+	"Michigan"	"26"	"White"	"2106-3"	"Apr., 2018"	"2018/04"	"Male"	"M"	111	Not Applicable	Not Applicable
+	"Michigan"	"26"	"White"	"2106-3"	"May, 2018"	"2018/05"	"Female"	"F"	63	Not Applicable	Not Applicable
+	"Michigan"	"26"	"White"	"2106-3"	"May, 2018"	"2018/05"	"Male"	"M"	80	Not Applicable	Not Applicable
+	"Michigan"	"26"	"White"	"2106-3"	"Jun., 2018"	"2018/06"	"Female"	"F"	70	Not Applicable	Not Applicable
+	"Michigan"	"26"	"White"	"2106-3"	"Jun., 2018"	"2018/06"	"Male"	"M"	115	Not Applicable	Not Applicable
+	"Michigan"	"26"	"White"	"2106-3"	"Jul., 2018"	"2018/07"	"Female"	"F"	90	Not Applicable	Not Applicable
+	"Michigan"	"26"	"White"	"2106-3"	"Jul., 2018"	"2018/07"	"Male"	"M"	111	Not Applicable	Not Applicable
+	"Michigan"	"26"	"White"	"2106-3"	"Aug., 2018"	"2018/08"	"Female"	"F"	53	Not Applicable	Not Applicable
+	"Michigan"	"26"	"White"	"2106-3"	"Aug., 2018"	"2018/08"	"Male"	"M"	114	Not Applicable	Not Applicable
+	"Michigan"	"26"	"White"	"2106-3"	"Sep., 2018"	"2018/09"	"Female"	"F"	51	Not Applicable	Not Applicable
+	"Michigan"	"26"	"White"	"2106-3"	"Sep., 2018"	"2018/09"	"Male"	"M"	100	Not Applicable	Not Applicable
+	"Michigan"	"26"	"White"	"2106-3"	"Oct., 2018"	"2018/10"	"Female"	"F"	47	Not Applicable	Not Applicable
+	"Michigan"	"26"	"White"	"2106-3"	"Oct., 2018"	"2018/10"	"Male"	"M"	96	Not Applicable	Not Applicable
+	"Michigan"	"26"	"White"	"2106-3"	"Nov., 2018"	"2018/11"	"Female"	"F"	63	Not Applicable	Not Applicable
+	"Michigan"	"26"	"White"	"2106-3"	"Nov., 2018"	"2018/11"	"Male"	"M"	88	Not Applicable	Not Applicable
+	"Michigan"	"26"	"White"	"2106-3"	"Dec., 2018"	"2018/12"	"Female"	"F"	58	Not Applicable	Not Applicable
+	"Michigan"	"26"	"White"	"2106-3"	"Dec., 2018"	"2018/12"	"Male"	"M"	103	Not Applicable	Not Applicable
+	"Michigan"	"26"	"White"	"2106-3"	"Jan., 2019"	"2019/01"	"Female"	"F"	48	Not Applicable	Not Applicable
+	"Michigan"	"26"	"White"	"2106-3"	"Jan., 2019"	"2019/01"	"Male"	"M"	93	Not Applicable	Not Applicable
+	"Michigan"	"26"	"White"	"2106-3"	"Feb., 2019"	"2019/02"	"Female"	"F"	54	Not Applicable	Not Applicable
+	"Michigan"	"26"	"White"	"2106-3"	"Feb., 2019"	"2019/02"	"Male"	"M"	89	Not Applicable	Not Applicable
+	"Michigan"	"26"	"White"	"2106-3"	"Mar., 2019"	"2019/03"	"Female"	"F"	48	Not Applicable	Not Applicable
+	"Michigan"	"26"	"White"	"2106-3"	"Mar., 2019"	"2019/03"	"Male"	"M"	110	Not Applicable	Not Applicable
+	"Michigan"	"26"	"White"	"2106-3"	"Apr., 2019"	"2019/04"	"Female"	"F"	57	Not Applicable	Not Applicable
+	"Michigan"	"26"	"White"	"2106-3"	"Apr., 2019"	"2019/04"	"Male"	"M"	79	Not Applicable	Not Applicable
+	"Michigan"	"26"	"White"	"2106-3"	"May, 2019"	"2019/05"	"Female"	"F"	66	Not Applicable	Not Applicable
+	"Michigan"	"26"	"White"	"2106-3"	"May, 2019"	"2019/05"	"Male"	"M"	104	Not Applicable	Not Applicable
+	"Michigan"	"26"	"White"	"2106-3"	"Jun., 2019"	"2019/06"	"Female"	"F"	50	Not Applicable	Not Applicable
+	"Michigan"	"26"	"White"	"2106-3"	"Jun., 2019"	"2019/06"	"Male"	"M"	83	Not Applicable	Not Applicable
+	"Michigan"	"26"	"White"	"2106-3"	"Jul., 2019"	"2019/07"	"Female"	"F"	55	Not Applicable	Not Applicable
+	"Michigan"	"26"	"White"	"2106-3"	"Jul., 2019"	"2019/07"	"Male"	"M"	100	Not Applicable	Not Applicable
+	"Michigan"	"26"	"White"	"2106-3"	"Aug., 2019"	"2019/08"	"Female"	"F"	42	Not Applicable	Not Applicable
+	"Michigan"	"26"	"White"	"2106-3"	"Aug., 2019"	"2019/08"	"Male"	"M"	84	Not Applicable	Not Applicable
+	"Michigan"	"26"	"White"	"2106-3"	"Sep., 2019"	"2019/09"	"Female"	"F"	50	Not Applicable	Not Applicable
+	"Michigan"	"26"	"White"	"2106-3"	"Sep., 2019"	"2019/09"	"Male"	"M"	102	Not Applicable	Not Applicable
+	"Michigan"	"26"	"White"	"2106-3"	"Oct., 2019"	"2019/10"	"Female"	"F"	42	Not Applicable	Not Applicable
+	"Michigan"	"26"	"White"	"2106-3"	"Oct., 2019"	"2019/10"	"Male"	"M"	114	Not Applicable	Not Applicable
+	"Michigan"	"26"	"White"	"2106-3"	"Nov., 2019"	"2019/11"	"Female"	"F"	46	Not Applicable	Not Applicable
+	"Michigan"	"26"	"White"	"2106-3"	"Nov., 2019"	"2019/11"	"Male"	"M"	112	Not Applicable	Not Applicable
+	"Michigan"	"26"	"White"	"2106-3"	"Dec., 2019"	"2019/12"	"Female"	"F"	56	Not Applicable	Not Applicable
+	"Michigan"	"26"	"White"	"2106-3"	"Dec., 2019"	"2019/12"	"Male"	"M"	94	Not Applicable	Not Applicable
+	"Michigan"	"26"	"White"	"2106-3"	"Jan., 2020"	"2020/01"	"Female"	"F"	46	Not Applicable	Not Applicable
+	"Michigan"	"26"	"White"	"2106-3"	"Jan., 2020"	"2020/01"	"Male"	"M"	101	Not Applicable	Not Applicable
+	"Michigan"	"26"	"White"	"2106-3"	"Feb., 2020"	"2020/02"	"Female"	"F"	58	Not Applicable	Not Applicable
+	"Michigan"	"26"	"White"	"2106-3"	"Feb., 2020"	"2020/02"	"Male"	"M"	96	Not Applicable	Not Applicable
+	"Michigan"	"26"	"White"	"2106-3"	"Mar., 2020"	"2020/03"	"Female"	"F"	53	Not Applicable	Not Applicable
+	"Michigan"	"26"	"White"	"2106-3"	"Mar., 2020"	"2020/03"	"Male"	"M"	103	Not Applicable	Not Applicable
+	"Michigan"	"26"	"White"	"2106-3"	"Apr., 2020"	"2020/04"	"Female"	"F"	56	Not Applicable	Not Applicable
+	"Michigan"	"26"	"White"	"2106-3"	"Apr., 2020"	"2020/04"	"Male"	"M"	125	Not Applicable	Not Applicable
+	"Michigan"	"26"	"White"	"2106-3"	"May, 2020"	"2020/05"	"Female"	"F"	78	Not Applicable	Not Applicable
+	"Michigan"	"26"	"White"	"2106-3"	"May, 2020"	"2020/05"	"Male"	"M"	161	Not Applicable	Not Applicable
+	"Michigan"	"26"	"White"	"2106-3"	"Jun., 2020"	"2020/06"	"Female"	"F"	68	Not Applicable	Not Applicable
+	"Michigan"	"26"	"White"	"2106-3"	"Jun., 2020"	"2020/06"	"Male"	"M"	139	Not Applicable	Not Applicable
+	"Michigan"	"26"	"White"	"2106-3"	"Jul., 2020"	"2020/07"	"Female"	"F"	55	Not Applicable	Not Applicable
+	"Michigan"	"26"	"White"	"2106-3"	"Jul., 2020"	"2020/07"	"Male"	"M"	135	Not Applicable	Not Applicable
+	"Michigan"	"26"	"White"	"2106-3"	"Aug., 2020"	"2020/08"	"Female"	"F"	59	Not Applicable	Not Applicable
+	"Michigan"	"26"	"White"	"2106-3"	"Aug., 2020"	"2020/08"	"Male"	"M"	98	Not Applicable	Not Applicable
+	"Michigan"	"26"	"White"	"2106-3"	"Sep., 2020"	"2020/09"	"Female"	"F"	45	Not Applicable	Not Applicable
+	"Michigan"	"26"	"White"	"2106-3"	"Sep., 2020"	"2020/09"	"Male"	"M"	103	Not Applicable	Not Applicable
+	"Michigan"	"26"	"White"	"2106-3"	"Oct., 2020"	"2020/10"	"Female"	"F"	55	Not Applicable	Not Applicable
+	"Michigan"	"26"	"White"	"2106-3"	"Oct., 2020"	"2020/10"	"Male"	"M"	114	Not Applicable	Not Applicable
+	"Michigan"	"26"	"White"	"2106-3"	"Nov., 2020"	"2020/11"	"Female"	"F"	56	Not Applicable	Not Applicable
+	"Michigan"	"26"	"White"	"2106-3"	"Nov., 2020"	"2020/11"	"Male"	"M"	90	Not Applicable	Not Applicable
+	"Michigan"	"26"	"White"	"2106-3"	"Dec., 2020"	"2020/12"	"Female"	"F"	50	Not Applicable	Not Applicable
+	"Michigan"	"26"	"White"	"2106-3"	"Dec., 2020"	"2020/12"	"Male"	"M"	104	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"Black or African American"	"2054-5"	"Jan., 2018"	"2018/01"	"Male"	"M"	11	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"Black or African American"	"2054-5"	"May, 2018"	"2018/05"	"Male"	"M"	11	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"Black or African American"	"2054-5"	"Aug., 2018"	"2018/08"	"Male"	"M"	14	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"Black or African American"	"2054-5"	"Nov., 2018"	"2018/11"	"Male"	"M"	10	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"Black or African American"	"2054-5"	"Feb., 2019"	"2019/02"	"Female"	"F"	10	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"Black or African American"	"2054-5"	"Mar., 2019"	"2019/03"	"Male"	"M"	10	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"Black or African American"	"2054-5"	"Apr., 2019"	"2019/04"	"Male"	"M"	13	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"Black or African American"	"2054-5"	"May, 2019"	"2019/05"	"Male"	"M"	14	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"Black or African American"	"2054-5"	"Aug., 2019"	"2019/08"	"Male"	"M"	10	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"Black or African American"	"2054-5"	"Sep., 2019"	"2019/09"	"Male"	"M"	10	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"Black or African American"	"2054-5"	"Oct., 2019"	"2019/10"	"Male"	"M"	12	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"Black or African American"	"2054-5"	"Dec., 2019"	"2019/12"	"Male"	"M"	12	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"Black or African American"	"2054-5"	"Feb., 2020"	"2020/02"	"Male"	"M"	15	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"Black or African American"	"2054-5"	"Mar., 2020"	"2020/03"	"Male"	"M"	14	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"Black or African American"	"2054-5"	"May, 2020"	"2020/05"	"Male"	"M"	19	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"Black or African American"	"2054-5"	"Jun., 2020"	"2020/06"	"Male"	"M"	24	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"Black or African American"	"2054-5"	"Jul., 2020"	"2020/07"	"Male"	"M"	10	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"Black or African American"	"2054-5"	"Sep., 2020"	"2020/09"	"Male"	"M"	14	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"Black or African American"	"2054-5"	"Oct., 2020"	"2020/10"	"Male"	"M"	16	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"Black or African American"	"2054-5"	"Dec., 2020"	"2020/12"	"Male"	"M"	10	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"White"	"2106-3"	"Jan., 2018"	"2018/01"	"Female"	"F"	26	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"White"	"2106-3"	"Jan., 2018"	"2018/01"	"Male"	"M"	42	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"White"	"2106-3"	"Feb., 2018"	"2018/02"	"Female"	"F"	35	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"White"	"2106-3"	"Feb., 2018"	"2018/02"	"Male"	"M"	48	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"White"	"2106-3"	"Mar., 2018"	"2018/03"	"Female"	"F"	33	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"White"	"2106-3"	"Mar., 2018"	"2018/03"	"Male"	"M"	51	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"White"	"2106-3"	"Apr., 2018"	"2018/04"	"Female"	"F"	19	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"White"	"2106-3"	"Apr., 2018"	"2018/04"	"Male"	"M"	35	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"White"	"2106-3"	"May, 2018"	"2018/05"	"Female"	"F"	32	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"White"	"2106-3"	"May, 2018"	"2018/05"	"Male"	"M"	56	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"White"	"2106-3"	"Jun., 2018"	"2018/06"	"Female"	"F"	31	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"White"	"2106-3"	"Jun., 2018"	"2018/06"	"Male"	"M"	46	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"White"	"2106-3"	"Jul., 2018"	"2018/07"	"Female"	"F"	21	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"White"	"2106-3"	"Jul., 2018"	"2018/07"	"Male"	"M"	47	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"White"	"2106-3"	"Aug., 2018"	"2018/08"	"Female"	"F"	33	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"White"	"2106-3"	"Aug., 2018"	"2018/08"	"Male"	"M"	39	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"White"	"2106-3"	"Sep., 2018"	"2018/09"	"Female"	"F"	27	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"White"	"2106-3"	"Sep., 2018"	"2018/09"	"Male"	"M"	41	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"White"	"2106-3"	"Oct., 2018"	"2018/10"	"Female"	"F"	27	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"White"	"2106-3"	"Oct., 2018"	"2018/10"	"Male"	"M"	53	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"White"	"2106-3"	"Nov., 2018"	"2018/11"	"Female"	"F"	19	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"White"	"2106-3"	"Nov., 2018"	"2018/11"	"Male"	"M"	47	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"White"	"2106-3"	"Dec., 2018"	"2018/12"	"Female"	"F"	35	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"White"	"2106-3"	"Dec., 2018"	"2018/12"	"Male"	"M"	57	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"White"	"2106-3"	"Jan., 2019"	"2019/01"	"Female"	"F"	23	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"White"	"2106-3"	"Jan., 2019"	"2019/01"	"Male"	"M"	47	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"White"	"2106-3"	"Feb., 2019"	"2019/02"	"Female"	"F"	23	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"White"	"2106-3"	"Feb., 2019"	"2019/02"	"Male"	"M"	33	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"White"	"2106-3"	"Mar., 2019"	"2019/03"	"Female"	"F"	34	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"White"	"2106-3"	"Mar., 2019"	"2019/03"	"Male"	"M"	53	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"White"	"2106-3"	"Apr., 2019"	"2019/04"	"Female"	"F"	29	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"White"	"2106-3"	"Apr., 2019"	"2019/04"	"Male"	"M"	57	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"White"	"2106-3"	"May, 2019"	"2019/05"	"Female"	"F"	23	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"White"	"2106-3"	"May, 2019"	"2019/05"	"Male"	"M"	64	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"White"	"2106-3"	"Jun., 2019"	"2019/06"	"Female"	"F"	30	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"White"	"2106-3"	"Jun., 2019"	"2019/06"	"Male"	"M"	44	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"White"	"2106-3"	"Jul., 2019"	"2019/07"	"Female"	"F"	30	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"White"	"2106-3"	"Jul., 2019"	"2019/07"	"Male"	"M"	60	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"White"	"2106-3"	"Aug., 2019"	"2019/08"	"Female"	"F"	39	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"White"	"2106-3"	"Aug., 2019"	"2019/08"	"Male"	"M"	60	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"White"	"2106-3"	"Sep., 2019"	"2019/09"	"Female"	"F"	26	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"White"	"2106-3"	"Sep., 2019"	"2019/09"	"Male"	"M"	52	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"White"	"2106-3"	"Oct., 2019"	"2019/10"	"Female"	"F"	29	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"White"	"2106-3"	"Oct., 2019"	"2019/10"	"Male"	"M"	45	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"White"	"2106-3"	"Nov., 2019"	"2019/11"	"Female"	"F"	31	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"White"	"2106-3"	"Nov., 2019"	"2019/11"	"Male"	"M"	59	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"White"	"2106-3"	"Dec., 2019"	"2019/12"	"Female"	"F"	29	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"White"	"2106-3"	"Dec., 2019"	"2019/12"	"Male"	"M"	57	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"White"	"2106-3"	"Jan., 2020"	"2020/01"	"Female"	"F"	31	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"White"	"2106-3"	"Jan., 2020"	"2020/01"	"Male"	"M"	61	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"White"	"2106-3"	"Feb., 2020"	"2020/02"	"Female"	"F"	39	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"White"	"2106-3"	"Feb., 2020"	"2020/02"	"Male"	"M"	69	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"White"	"2106-3"	"Mar., 2020"	"2020/03"	"Female"	"F"	24	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"White"	"2106-3"	"Mar., 2020"	"2020/03"	"Male"	"M"	66	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"White"	"2106-3"	"Apr., 2020"	"2020/04"	"Female"	"F"	39	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"White"	"2106-3"	"Apr., 2020"	"2020/04"	"Male"	"M"	64	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"White"	"2106-3"	"May, 2020"	"2020/05"	"Female"	"F"	43	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"White"	"2106-3"	"May, 2020"	"2020/05"	"Male"	"M"	86	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"White"	"2106-3"	"Jun., 2020"	"2020/06"	"Female"	"F"	31	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"White"	"2106-3"	"Jun., 2020"	"2020/06"	"Male"	"M"	69	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"White"	"2106-3"	"Jul., 2020"	"2020/07"	"Female"	"F"	31	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"White"	"2106-3"	"Jul., 2020"	"2020/07"	"Male"	"M"	78	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"White"	"2106-3"	"Aug., 2020"	"2020/08"	"Female"	"F"	32	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"White"	"2106-3"	"Aug., 2020"	"2020/08"	"Male"	"M"	79	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"White"	"2106-3"	"Sep., 2020"	"2020/09"	"Female"	"F"	33	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"White"	"2106-3"	"Sep., 2020"	"2020/09"	"Male"	"M"	69	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"White"	"2106-3"	"Oct., 2020"	"2020/10"	"Female"	"F"	28	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"White"	"2106-3"	"Oct., 2020"	"2020/10"	"Male"	"M"	59	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"White"	"2106-3"	"Nov., 2020"	"2020/11"	"Female"	"F"	30	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"White"	"2106-3"	"Nov., 2020"	"2020/11"	"Male"	"M"	71	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"White"	"2106-3"	"Dec., 2020"	"2020/12"	"Female"	"F"	37	Not Applicable	Not Applicable
+	"Wisconsin"	"55"	"White"	"2106-3"	"Dec., 2020"	"2020/12"	"Male"	"M"	68	Not Applicable	Not Applicable
+"---"
+"Dataset: Multiple Cause of Death, 2018-2021, Single Race"
+"Query Parameters:"
+"MCD - Drug/Alcohol Induced Causes: Drug-induced causes"
+"States: Michigan (26); Wisconsin (55)"
+"UCD - Drug/Alcohol Induced Causes: Drug poisonings (overdose) Unintentional (X40-X44); Drug poisonings (overdose) Suicide"
+"(X60-X64); Drug poisonings (overdose) Homicide (X85); Drug poisonings (overdose) Undetermined (Y10-Y14)"
+"Year/Month: 2018; 2019; 2020"
+"Group By: State; Single Race 6; Month; Gender"
+"Show Totals: Disabled"
+"Show Zero Values: False"
+"Show Suppressed: False"
+"Calculate Rates Per: 100,000"
+"Rate Options: Default intercensal populations for years 2001-2009 (except Infant Age Groups)"
+"---"
+"Help: See http://wonder.cdc.gov/wonder/help/mcd-expanded.html for more information."
+"---"
+"Query Date: Aug 30, 2023 10:47:54 AM"
+"---"
+"Suggested Citation: Centers for Disease Control and Prevention, National Center for Health Statistics. National Vital Statistics"
+"System, Mortality 2018-2021 on CDC WONDER Online Database, released in 2023. Data are from the Multiple Cause of Death Files,"
+"2018-2021, as compiled from data provided by the 57 vital statistics jurisdictions through the Vital Statistics Cooperative"
+"Program. Accessed at http://wonder.cdc.gov/mcd-icd10-expanded.html on Aug 30, 2023 10:47:54 AM"
+"---"
+Messages:
+"1. Totals are not available for these results due to suppression constraints. More Information:"
+"http://wonder.cdc.gov/wonder/help/faq.html#Privacy."
+"2. Rows with zero Deaths are hidden. Use Quick Options above to show zero rows."
+"3. Rows with suppressed Deaths are hidden. Use Quick Options above to show suppressed rows."
+"---"
+Caveats:
+"1. Population and rates are labeled 'Not Applicable' when Autopsy, Place of Death, Weekday or Month are grouped by or limited,"
+"due to lack of a valid population. More information: http://wonder.cdc.gov/wonder/help/mcd-expanded.html#NotApplicableRates."
+"2. Data are Suppressed when the data meet the criteria for confidentiality constraints. More information:"
+"http://wonder.cdc.gov/wonder/help/mcd-expanded.html#Assurance of Confidentiality."
+"3. Death rates are flagged as Unreliable when the rate is calculated with a numerator of 20 or less. More information:"
+"http://wonder.cdc.gov/wonder/help/mcd-expanded.html#Unreliable."
