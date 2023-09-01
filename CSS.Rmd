@@ -1,0 +1,314 @@
+---
+title: "The Effect of Cannabis Legalisation on Drug Abuse: a quantitative anlaysis"
+output: html_notebook
+---
+
+```{r}
+library(dplyr)
+library(car)
+library(ggplot2)
+library(tidyr)
+library(ggrepel)
+
+```
+
+The following analysis will be conducted in R. To begin with, we eliminate the NAs within the data set.
+
+```{r}
+data<- read.delim("/Users/alicemadama/Desktop/CDCdata1.txt")
+View(data)
+data<-na.omit(data)
+```
+
+## **Data Exploration**
+
+In this preliminary analysis we aim to analyze, manipulate and understand the data, to prepare it for the inferential analysis in the upcoming paragraphs.
+
+First, we observe a summary of the data, to gain a better understanding of the variables at hand.
+
+```{r}
+summary_model<-summary(data)
+
+```
+
+First we define the average deaths each month by state, however such table is not as informative as it could be, so we proceed onto visualising the data for better results.
+
+```{r}
+avg_death_by_month <- data %>%
+  group_by(Month.Code, State) %>%
+  summarise(average_death_rate = mean(Deaths))
+print(avg_death_by_month)
+
+```
+
+The graph shows similar trends for Wisconsin and Michigan, although it is hard to truly be able to establish if they are similar or not.
+
+```{r}
+ggplot(avg_death_by_month, aes(x = Month.Code, y = average_death_rate, color = State, group = State)) +
+  geom_line() +
+  labs(title = "Average Drug-Related Deaths by State",
+       x = "Month", y = "Average Deaths") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+```
+
+We proceed onto cleaning the data set, creating the necessary dummy variables and eliminating the unused columns. Moreover, we create two dummy variables which will be instrumental to conducting the Difference-in-Difference Analysis: Treatment_Status and Period.
+
+```{r}
+data <- data %>%
+  mutate(Year = as.integer(substr(Month.Code, 1, 4)),
+         Month = as.integer(substr(Month.Code, 6, 7)),
+         Treatment_Status = ifelse(State == "Michigan", 1, 0))
+data$Period <- ifelse(data$Year > 2019 | (data$Year == 2019 & data$Month >= 12), 1, 0)
+data<- data[, !(names(data) %in% c("Year", "Month", "Notes", "State.Code", "Gender.Code", "Race.Code", "Population", "Crude.Rate"))]
+data$Gender_Dummy <- ifelse(data$Gender == "Male", 1, 0)
+data$Race_Dummy <- ifelse(data$Single.Race.6 == "Black or African American", 1, 0)
+```
+
+Given then modified data set we can visualize the average deaths before and after treatment.
+
+```{r}
+post_treatment_data <- data[data$Period == 1, ]
+post_treatment_grouped <- post_treatment_data %>% group_by(State, Month.Code)
+death_means <- post_treatment_grouped %>% summarize(Deaths_Mean_Post = ceiling(mean(Deaths)))
+
+ggplot(death_means, aes(x = Month.Code, y = Deaths_Mean_Post, color = State, group = State)) +
+  geom_line() +
+  labs(title = "Average Drug-Related Deaths by State Post Treatment",
+       x = "Month", y = "Average Deaths") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
+
+```{r}
+pre_treatment_data <- data[data$Period == 0, ]
+pre_treatment_grouped <- pre_treatment_data %>% group_by(State, Month.Code)
+death_means <- pre_treatment_grouped %>% summarize(Deaths_Mean = ceiling(mean(Deaths)))
+
+death_means_wide <- death_means %>%
+  pivot_wider(names_from = State, values_from = Deaths_Mean)
+
+
+ggplot(death_means, aes(x = Month.Code, y = Deaths_Mean, color = State, group = State)) +
+  geom_line() +
+  labs(title = "Average Drug-Related Deaths by State Pre Treatment",
+       x = "Month", y = "Average Deaths") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
+
+Moreover, since we wish to conduct a Difference in Difference analysis we make a first attempt in evaluating the "difference" in deaths between before and after Treatment.
+
+```{r}
+
+did_plotdata <- data %>%
+  filter(State %in% c("Michigan", "Wisconsin")) %>%
+  group_by(State, Period) %>%
+  summarise(emptot = mean(Deaths))
+
+did_plotdata %>%
+  mutate(label = if_else(Period == 1, as.character(State), NA_character_)) %>%
+  ggplot(aes(x = factor(Period), y = emptot, group = State)) +
+  geom_line(aes(color = State), size = 1.2) +
+  geom_vline(xintercept = 1, linetype = "dotted", color = "black", size = 1.1) + 
+  scale_color_brewer(palette = "Accent") +
+  scale_y_continuous(limits = c(min(did_plotdata$emptot), max(did_plotdata$emptot))) +
+  geom_label_repel(aes(label = label), nudge_x = 0.05, nudge_y = -0.5, na.rm = TRUE) +
+  guides(color = FALSE) +
+  labs(x = "Period", y = "Deaths (mean)") +
+  theme_minimal()  # or theme_light()
+
+```
+
+As shown by the graph we can expect a slight increase both in Wisconsin and Michigan. Overall the difference observed appears quite marginal. However, it is necessary to conduct the appropriate testing before reaching any conclusions.
+
+## Shapiro-Wilk normality test and T-Testing
+
+To begin with, it is attempted to test for a difference between the two groups, through the use of Welch's test, also known as the t-test. Such statistical tool requires normality of the data to be correctly carried out, thus we first visualize the distribution through a Q-Q Plot:
+
+```{r}
+untreated <- data[data$Period == 0, "Deaths"]
+qqnorm((untreated))
+qqline((untreated))
+
+```
+
+As shown by the graph, the data does not perfectly fit the line. However, it is approximately moving towards normality. A logarithm transformation is applied.
+
+```{r}
+qqnorm(log(untreated))
+qqline(log(untreated))
+```
+
+The logarithmic data does indeed appear to be normally distributed. To conduct the analysis, the logarithm of the deaths will now be used.
+
+A similar behavior can be observed among treated subjects.
+
+```{r}
+treated <- data[data$Period == 1, "Deaths"]
+qqnorm(treated)
+qqline(treated)
+```
+
+```{r}
+qqnorm(log(treated))
+qqline(log(treated))
+```
+
+To further prove normality of the distribution, a Shapiro-Wilk test is conducted on the logarithm of the data.
+
+```{r}
+shapiro<-shapiro.test(log((data$Deaths)))
+test_statistic <- shapiro$statistic
+p_value <- shapiro$p.value
+
+# Create a data frame
+shapiro_table <- data.frame(
+  Variable = "Deaths",
+  Test_Statistic = test_statistic,
+  P_Value = p_value
+)
+
+print(shapiro_table)
+```
+
+The resulting test shows a p-value much lower than 0.05 (the canonical threshold), thus rejecting the null hypothesis of normality. However, the literature indicates that the Shapiro-Wilk test may become extremely sensitive to variations from normality, when the data set is large. For this reason, we conduct again the test on smaller data groups ( treated and untreated ) to check for robustness.
+
+```{r}
+shapiro_untreated<-shapiro.test(log(untreated))
+test_statistic_untreated <- shapiro_untreated$statistic
+p_value_untreated <- shapiro_untreated$p.value
+
+shapiro_table_untreated <- data.frame(
+  Variable = "Deaths",
+  Test_Statistic = test_statistic_untreated,
+  P_Value = p_value_untreated
+)
+
+
+shapiro_treated<-shapiro.test(log(treated))
+test_statistic_treated <- shapiro_treated$statistic
+p_value_treated <- shapiro_treated$p.value
+
+shapiro_table_treated <- data.frame(
+  Variable = "Deaths",
+  Test_Statistic = test_statistic_treated,
+  P_Value = p_value_treated
+)
+
+```
+
+The new tests show strong inconsistencies, leading to believe the original one may be suffering from high dimensionality related biases. For this reason, its results are discarded and the Q-Q plots results are viewed as satisfying to conduct the analysis.
+
+```{r}
+t_test_result <- t.test(log(treated), log(untreated))
+print(t_test_result)
+```
+
+The Welch Two Sample t-test leads to conclude that there is no significant difference between the two groups. As observed in the exploration of the data, the change was marginal, thus it is possible to consider it insignificant.
+
+## Difference in Difference Analysis
+
+In order to conduct the Difference in Difference analysis, one must verify similarity in trends of the two groups that they wish to compare. Firstly, we represent the data of Michigan and Wisconsin for each month.
+
+```{r}
+ggplot(data, aes(x = Month.Code, y =Deaths, color = State, group = State)) +
+  geom_line() +
+  labs(title = "Drug-Related Deaths by State",
+       x = "Month", y = "Average Deaths") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
+
+From the graph, it difficult to discern and overlapping trend. It does appear that the two states have similar movements throughout the entire time period observed, however standardization of the data could give a better insight into this question.
+
+```{r}
+data$Deaths_Standardized<-scale(data$Deaths)
+ggplot(data, aes(x = Month.Code, y =Deaths_Standardized, color = State, group = State)) +
+  geom_line() +
+  labs(title = "Drug-Related Deaths by State, Standardized",
+       x = "Month", y = "Average Deaths") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
+
+Standardization does not bring an improvement to our analysis. Perhaps focusing on smaller time slots might help visualizing the trends.
+
+```{r}
+ggplot(death_means, aes(x = Month.Code, y = scale(Deaths_Mean), color = State, group = State)) +
+  geom_line() +
+  labs(title = "Average Drug-Related Deaths by State Pre Treatment",
+       x = "Month", y = "Average Deaths") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
+
+```{r}
+ggplot(death_means, aes(x = Month.Code, y = scale(Deaths_Mean_Post), color = State, group = State)) +
+  geom_line() +
+  labs(title = "Average Drug-Related Deaths by State Post Treatment",
+       x = "Month", y = "Average Deaths") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
+
+Overall, conclusions are hard to draw. It does appear like there is a slight overlap on the overall data set, when comparing the two States. However visualization is not able to bring further evidence. For the sake of the study, we apply Difference-in-Difference nonetheless, keeping in mind such limitation.
+
+```{r}
+did_model <- lm(log(Deaths) ~ Period + Treatment_Status +Period:Treatment_Status, data = data)
+summary(did_model)
+
+
+```
+
+The Difference-in-Difference regression, deprived of other covariates, confirms the results from the t-test: the Period variable is not statistically significant, showing there is no significant change in the control group over time. Moreover the effect of the treatment over time appears statistically non-significant.
+
+Such results however, must be confirmed through sensitivity testing. In this case it is chosen to gradually add covariates to the study, in order to ensure the robustness of the model.
+
+```{r}
+did_model_sensitivity <- lm(log(Deaths) ~ Period + Treatment_Status + Gender_Dummy + Period:Treatment_Status, data = data)
+summary(did_model_sensitivity)
+
+```
+
+Although Gender appears to be a highly significant value within our analysis, it didn't not heavily influence the relationship between time and the effects of the treatment. Overall it maintains no significance.
+
+```{r}
+did_model_sensitivity2 <- lm(log(Deaths) ~ Period + Treatment_Status + Gender_Dummy + Race_Dummy*Treatment_Status + Period:Treatment_Status, data = data)
+summary(did_model_sensitivity2)
+```
+
+Race, however, changes completely the results of the analysis. Such result might indicate a confounder, or a stronger association of race with the outcome or the treatment. To check for a possible difference in Overdose related Deaths for each racial group, a correlation test was run.
+
+```{r}
+
+correlation <- data %>%
+  select(Race_Dummy, Deaths) %>%
+  cor(method = "spearman")
+
+print(correlation)
+
+
+```
+
+It appears that there may be a negative association between race (specifically, the distinction between Black and White individuals) and overdose deaths. This suggests that there may be differences in overdose death rates between these racial groups.
+
+A similar analysis is run for Treatment and Outcome.
+
+```{r}
+correlation_T <- data %>%
+  select(Treatment_Status, Deaths) %>%
+  cor(method = "spearman")
+
+print(correlation_T)
+
+
+
+```
+
+As shown by the table above, there is a weak positive relationship between the two variables, this suggests that, on average, individuals in the treatment group may have slightly higher overdose death rates compared to those in the control group.
+
+## Conclusions
+
+Overall, the limitations of the analysis conducted make it impossible to reach a definitive conclusion. Although the Difference-in-Difference analysis suggests a weak relationship between treatment and outcome, t-test does not find a significant difference between treated and untreated groups. Moreover, it was impossible to surely verify the assumptions behind DiD and Race appears to be a strong influence in the final results.
